@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+			<!-- This is my Title that will show on the search bar -->
+		<title>Horror Movies | Krissel Griarte</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+	</head>
+
+	<body>
+		<br>
+		<br>
+		<br>
+
+		<!-- This is my whole container -->
+		<div class="grid">
+			<div id="quiz">
+				<!-- My Theme: Horror Movies -->
+				<h1>TESTING</h1>
+				<h1>Trivia: Horror Movies</h1>
+				<hr style="margin-bottom: 10px">
+				<!-- This is where you see "Lets Play!" -->
+			
+				<!-- This is the timer in the Web -->
+				<p id="timer">Your timer begins now......</p>	
+				
+				<!-- This will show each questions -->
+				<p id="question"></p>
+
+				<!-- The answer goes here -->
+				<p id="answer"></p>
+				<!-- This will show each choices for each question -->
+				<div id="button_div" class="buttons">
+					<button id="btn0"><span id="choice0"></span></button>
+					<button id="btn1"><span id="choice1"></span></button>
+					<button id="btn2"><span id="choice2"></span></button>
+					<button id="btn3"><span id="choice3"></span></button>
+				</div>	
+				
+
+				<hr style="margin-top: 50px">
+
+			</div>
+			<p id="scores">Your Final Score:</p>
+			<div id="music">
+				<audio autoplay>
+  					<source src="assets/images/Music.wav" type="audio/mpeg">
+				</audio>
+		</div>
+
+		<script src="assets/javascript/trivia_controller.js"></script>
+		<script src="assets/javascript/trivia_qs.js"></script>
+		<script src="assets/javascript/app.js"></script>
+
+	</body>
+</html>

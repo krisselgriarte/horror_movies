@@ -1,0 +1,101 @@
+body {
+	background: url(../images/bloody.jpg) no-repeat fixed;
+	background-size: 100% 100%;
+	opacity: 30%;
+}
+/*this is my container*/
+
+.grid {
+	width: 640px;
+	height: 500px;
+	margin: 0 auto;
+	background: url(../images/bloody.jpg) no-repeat fixed;
+	background-size: 100% 100%;
+	opacity: 0.8px;
+	padding: 10px 50px 50px 50px;
+	border-radius: 50px;
+	border: 2px solid black;
+	box-shadow: 15px 15px 15px black;
+}
+
+.grid h1 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 47px;
+	background-color: black;
+	color: #B22222;
+	text-align: center;
+	padding: 2px 0px;
+	border-radius: 70px;
+	border: 2px solid black;
+	
+}
+#timer {
+	background-color: #DEB887;
+	border-radius: 70px;
+	border: 2px dotted #B22222;
+	text-align: center;
+	font-size: 18px;
+	color:#FFFAF0;
+}
+
+
+.grid {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 12px;
+	color: #FFF8DC;
+}
+
+#question {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 20px;
+	color: black;
+	background-color: #DEB887;
+	border: 2px solid #B22222;
+	border-radius: 70px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#answer {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 25px;
+	color: #B22222;
+	font-weight: 25px;
+	background-color: black;
+	border-radius: 70px;
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+#scores {
+	color: black;
+	text-align: center;
+
+}
+
+.buttons {
+	margin-top: 50px;
+}
+
+.music {
+	display: none;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+	background-color: #DEB887;
+	width: 250px;
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 18px;
+	border: 1px solid;
+	margin: 10px 20px 10px 20px;
+	padding: 10px 10px;
+	border-radius: 20px;
+	color: black;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+	cursor:pointer;
+	background-color: #B22222;
+}
+
